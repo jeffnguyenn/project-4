@@ -1,0 +1,30 @@
+{
+  "exhibits": {
+    "exhibit": [
+      {
+        "code": "A",
+        "name": "Exhibit A: Rustic Swirls",
+        "url": "https://www.pinterest.com/pin/827536500278068467/",
+        "exhibitImg": "rustic-swirls.jpg",
+        "altText": "Rustic Swirls Painting",
+        "desc": "A classic painting from pinterest."
+      },
+      {
+        "code": "B",
+        "name": "Exhibit B: Planet Infrared",
+        "url": "https://wallpapersden.com/4k-new-abstract-art-wallpaper/",
+        "exhibitImg": "lava-swirls.jpg",
+        "altText": "Planet Infrared Painting",
+        "desc": "A favorite from WallpapersDen."
+      },
+      {
+        "code": "C",
+        "name": "Exhibit C: Abstract Sunset",
+        "url": "https://free4kwallpapers.com/3d-abstract/sunset-abstract-art-wallpaper--2NZM",
+        "exhibitImg": "abstract-sunset.jpg",
+        "altText": "Abstract Sunset",
+        "desc": "A masterpiece from Free4kWallpapers."
+      }
+    ]
+  }
+}

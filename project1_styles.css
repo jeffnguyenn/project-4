@@ -1,0 +1,110 @@
+h1 {
+    text-shadow: -5px 5px 10px gray;
+}
+body {
+    font-family: "Roboto Mono", sans-serif;
+}
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row {
+    border: gray 1px solid;
+}
+.container {
+    background-color: #D7CEC7;
+}
+#navContainer a {
+    color: #0b2e13;
+}
+#navContainer a:hover {
+    color: #C09F80;
+}
+#navContainer .navbar-brand {
+    font-weight: bolder;
+    color: #76323F;
+}
+.navbar-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar-nav ul li {
+    border: black 1px solid;
+    margin-top: 1px;
+}
+.navbar-nav ul li .nav-item{
+    padding-left: 10px;
+}
+@media (min-width: 990px){
+    .navbar-nav ul li{
+        float: left;
+        list-style: none;
+        border: none;
+        margin: 0;
+        width: 150px;
+        text-align: center;
+    }
+}
+.nav-item:hover {
+    background-color: white;
+}
+.nav-item:visited {
+    background-color: lightgrey;
+}
+.active {
+    background-color: white;
+}
+#containerBody {
+    background-color: floralwhite;
+    padding: 10px 0px;
+}
+#containerBody a {
+    text-decoration: none;
+    color: #76323F;
+}
+#containerBody a:hover {
+    font-weight: bolder;
+}
+.body-image-section {
+    padding-top: 20px;
+}
+.body-image {
+    width: 100%;
+    border: #76323F 5px solid;
+}
+.products {
+    width: 100%;
+    border: #D7CEC7 2px solid;
+    box-shadow: -2px 2px 15px;
+}
+.table-columns {
+    background-color: #76323F;
+    color: white;
+}
+td {
+    border: #D7CEC7 2px solid;
+    padding: 0px 15px;
+}
+fieldset {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: #76323F 1px solid;
+}
+legend {
+    font-weight: bold;
+    padding: 0.5em 0.5em;
+    border: #76323F 1px solid;
+    background-color: whitesmoke;
+    width: auto;
+}
+label {
+    padding-right: 5px;
+}
+#artBrush {
+    height: 200px;
+    width: 200px;
+}
+textarea {
+    width: 50%;
+}

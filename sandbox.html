@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sandbox</title>
+    <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="project1_styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="container offset-0">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-dark" id="navContainer">
+                    <a class="navbar-brand" href="index.html">DigiArt</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <ul>
+                                <li><a class="nav-item nav-link" href="index.html">Home</a></li>
+                                <li><a class="nav-item nav-link" href="products.html">Products</a></li>
+                                <li><a class="nav-item nav-link" href="gallery.html">Image Gallery</a></li>
+                                <li><a class="nav-item nav-link active" href="#">Sandbox</a></li>
+                                <li><a class="nav-item nav-link" href="about_us.html">About Us</a></li>
+                                <li><a class="nav-item nav-link" href="contact_us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row" id="containerBody">
+            <div class="col-md-12">
+                <h1 id="header">Welcome to the Sandbox!</h1>
+                <p>Here, you can customize the page however you like. You can add, remove, and style elements.
+                    Test your creativity! (hover over the header for a surprise!)</p>
+                <input type="button" id="addRollover" name="addRollover" value="Click here to add Rollovers to <p> tags!"> <br><br>
+            </div>
+            <div class="col-md-12" id="sandboxContainer">
+                <form>
+                    <label for="addElement">Element </label> <br>
+                    <input type="text" id="addElement" name="addElement"> <br><br>
+
+                    <label for="elementText">Element Text </label> <br>
+                    <textarea id="elementText" name="elementText"></textarea> <br><br>
+
+                    <label for="addStyle">Element Style (separate styles by enter key)</label> <br>
+                    <textarea id="addStyle" name="addStyle"></textarea> <br><br>
+
+                    <input type="button" id="add" name="add" value="Add Element!">
+                    <input type="button" id="modify" name="modify" value="Modify Element!">
+                    <input type="button" id="delete" name="delete" value="Delete Element!"> <br><br>
+                </form>
+            </div>
+            <div class="col-md-12">
+                <h2>Output...</h2>
+            </div>
+            <div class="col-md-12" id="sandboxOutput"></div>
+            <div class="col-md"></div>
+            <div class="col-md-6" style="text-align: center">
+                <p><a href="#navContainer">Back to top...</a></p>
+            </div>
+            <div class="col-md"></div>
+        </div>
+    </div>
+</div>
+
+<script src="sandbox.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery-3.4.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
