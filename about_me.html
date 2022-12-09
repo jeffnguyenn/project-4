@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sandbox</title>
+    <title>Products</title>
     <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="project1_styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -26,9 +26,9 @@
                                 <li><a class="nav-item nav-link" href="index.html">Home</a></li>
                                 <li><a class="nav-item nav-link" href="products.html">Products</a></li>
                                 <li><a class="nav-item nav-link" href="gallery.html">Image Gallery</a></li>
-                                <li><a class="nav-item nav-link active" href="#">Sandbox</a></li>
+                                <li><a class="nav-item nav-link" href="sandbox.html">Sandbox</a></li>
                                 <li><a class="nav-item nav-link" href="about_us.html">About Us</a></li>
-                                <li><a class="nav-item nav-link" href="about_me.html">About Me</a></li>
+                                <li><a class="nav-item nav-link active" href="#">About Me</a></li>
                                 <li><a class="nav-item nav-link" href="contact_us.html">Contact Us</a></li>
                             </ul>
                         </div>
@@ -38,31 +38,15 @@
         </div>
         <div class="row" id="containerBody">
             <div class="col-md-12">
-                <h1 id="header">Welcome to the Sandbox!</h1>
-                <p>Here, you can customize the page however you like. You can add, remove, and style elements.
-                    Test your creativity! (hover over the header for a surprise!)</p>
-                <input type="button" id="addRollover" name="addRollover" value="Click here to add Rollovers to <p> tags!"> <br><br>
+                <h1>ABOUT ME</h1>
+                <img class="img-fluid" width="200" height="200" src="portrait.jpg" alt="Jefferson Nguyen portrait">
+                <p>Hi there! My name is Jefferson Nguyen, and I'm graduating from George Mason University
+                during the Spring of 2023. I'll be graduating with a major in Information Technology,
+                concentrating in Database Technology and Programming. I have a passion for programming, and
+                I am looking for positions like Software Engineer or Developer to follow that passion. If you
+                have a position that you feel I might be interested in, feel free to reach out to me! Thank you!</p>
             </div>
-            <div class="col-md-12" id="sandboxContainer">
-                <form>
-                    <label for="addElement">Element </label> <br>
-                    <input type="text" id="addElement" name="addElement"> <br><br>
 
-                    <label for="elementText">Element Text </label> <br>
-                    <textarea id="elementText" name="elementText"></textarea> <br><br>
-
-                    <label for="addStyle">Element Style (separate styles by enter key)</label> <br>
-                    <textarea id="addStyle" name="addStyle"></textarea> <br><br>
-
-                    <input type="button" id="add" name="add" value="Add Element!">
-                    <input type="button" id="modify" name="modify" value="Modify Element!">
-                    <input type="button" id="delete" name="delete" value="Delete Element!"> <br><br>
-                </form>
-            </div>
-            <div class="col-md-12">
-                <h2>Output...</h2>
-            </div>
-            <div class="col-md-12" id="sandboxOutput"></div>
             <div class="col-md"></div>
             <div class="col-md-6" style="text-align: center">
                 <p><a href="#navContainer">Back to top...</a></p>
@@ -71,8 +55,6 @@
         </div>
     </div>
 </div>
-
-<script src="sandbox.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery-3.4.1.min.js"></script>

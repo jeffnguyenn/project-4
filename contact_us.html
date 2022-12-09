@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>About Us</title>
     <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="project1_styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
 </head>
 <body>
 <div class="container">
@@ -27,6 +32,7 @@
                                 <li><a class="nav-item nav-link" href="gallery.html">Image Gallery</a></li>
                                 <li><a class="nav-item nav-link" href="sandbox.html">Sandbox</a></li>
                                 <li><a class="nav-item nav-link" href="about_us.html">About Us</a></li>
+                                <li><a class="nav-item nav-link" href="about_me.html">About Me</a></li>
                                 <li><a class="nav-item nav-link active" href="#">Contact Us</a></li>
                             </ul>
                         </div>
@@ -79,17 +85,8 @@
                                 <input type="radio" name="referral" value="no" id="referral2">
                                 No</label>
                             <br><br>
-                        <label for="weekday">BOT CHECK: What day of the week was yesterday?</label>
-                            <input name="weekday" id="weekday" placeholder="enter here" list="weekdays" />
-                            <datalist id="weekdays">
-                                <option value="Sunday">Sunday</option>
-                                <option value="Monday">Monday</option>
-                                <option value="Tuesday">Tuesday</option>
-                                <option value="Wednesday">Wednesday</option>
-                                <option value="Thursday">Thursday</option>
-                                <option value="Friday">Friday</option>
-                                <option value="Saturday">Saturday</option>
-                            </datalist><br><br>
+                        <label for="yesterday">BOT CHECK: What day was yesterday?</label>
+                            <input type="text" name="yesterday" id="yesterday" placeholder="enter here" /> <br><br>
                         <label for="comments">Please include any extra comments here:</label><br>
                             <textarea cols="40" rows="5" id="comments" name="comments" ></textarea>
                     </fieldset> <br>
@@ -105,6 +102,9 @@
         </div>
     </div>
 </div>
+
+<script src="validate_form.js"></script>
+<script src="jQueryUI_features.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery-3.4.1.min.js"></script>

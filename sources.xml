@@ -1,0 +1,42 @@
+<sources>
+    <source>
+        <name>Main Styling</name>
+        <file>project1_styles.css</file>
+    </source>
+    <source>
+        <name>Project Documentation</name>
+        <file>IT331-001_Project%204%20Documentation_Nguyen.pdf</file>
+    </source>
+    <source>
+        <name>Home Page JavaScript</name>
+        <file>user_name.js</file>
+    </source>
+    <source>
+        <name>Home Page JSON data</name>
+        <file>exhibits.json</file>
+    </source>
+    <source>
+        <name>Image Gallery JavaScript</name>
+        <file>gallery.js</file>
+    </source>
+    <source>
+        <name>Sandbox JavaScript</name>
+        <file>sandbox.js</file>
+    </source>
+    <source>
+        <name>About Us JavaScript</name>
+        <file>sources.js</file>
+    </source>
+    <source>
+        <name>About Us XML Data</name>
+        <file>sources.xml</file>
+    </source>
+    <source>
+        <name>Contact Us Form Validation</name>
+        <file>validate_form.js</file>
+    </source>
+    <source>
+        <name>Contact Us Datepicker</name>
+        <file>jQueryUI_features.js</file>
+    </source>
+</sources>

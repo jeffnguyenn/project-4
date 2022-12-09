@@ -108,3 +108,26 @@ label {
 textarea {
     width: 50%;
 }
+#ui-datepicker-div {
+    background-color: white;
+    border: 1px solid #76323F;
+    padding: 2px;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    border: 1px solid #76323F;
+    padding: 1px;
+    margin: 2px;
+    background-color: #D7CEC7;
+}
+.ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+    cursor: pointer;
+}
+.ui-datepicker-title {
+    background-color: #D7CEC7;
+    margin-top: 3px;
+}
+.ui-datepicker-calendar tbody tr td a {
+    color: #76323F;
+    font-weight: bold;
+    text-decoration: none;
+}
